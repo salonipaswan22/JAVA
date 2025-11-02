@@ -1,0 +1,18 @@
+//take two user input a,b if a=b equal and elseif a>b iss greater else a<b a is lesser
+public class Main{
+    public static void main(String[]args){
+       Scanner sc=new Scanner(System.in){
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        if(a==b){
+            System.out.println("a is equal");
+        }
+        else if(a>b){
+            System.out.println("a is greater");
+        }
+        else{
+            System.out.pritnln("a is smaller");
+            }
+       }
+    }
+}
